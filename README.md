@@ -1,9 +1,9 @@
-# Bike Sharing Dashboard
+# Dashboard Bike Sharing
 
-Project analisis data menggunakan Streamlit.
+## Cara Menjalankan
 
-## Dashboard
-https://(link streamlit kamu)
+1. Install dependencies:
+pip install -r requirements.txt
 
-## Author
-Azlinsyah Fadhilah Meran
+2. Jalankan dashboard:
+streamlit run dashboard/dashboard.py
