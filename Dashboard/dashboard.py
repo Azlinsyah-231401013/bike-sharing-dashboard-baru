@@ -39,7 +39,11 @@ def create_temp_cluster_df(df):
     cluster_df.rename(columns={"cnt": "avg_count"}, inplace=True)
     return cluster_df
 
-day_df = pd.read_csv("day.csv")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+file_path = os.path.join(current_dir, "day.csv")
+
+day_df = pd.read_csv(file_path)
 
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
 
