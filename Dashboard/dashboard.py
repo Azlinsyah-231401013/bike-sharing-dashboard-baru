@@ -159,4 +159,4 @@ ax.set_ylabel("Rata-rata Peminjaman")
 ax.set_xlabel("Klaster Suhu")
 st.pyplot(fig)
 
-st.caption('Copyright (c) Priadi Cuanda 2026 - DBS Coding Camp')
+st.caption('Copyright (c) Azlinsyah 2026 - DBS Coding Camp')
